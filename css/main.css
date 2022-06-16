@@ -149,3 +149,11 @@ footer{
     height: 100px;
     text-align: center;
 }
+@media screen and (max-width: 960px) {
+    #menu_logo_feisa{
+        display: none;
+    }
+    .text-block-header{
+        font-size: 10px;
+    }
+  }

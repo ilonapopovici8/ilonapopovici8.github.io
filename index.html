@@ -41,7 +41,7 @@
             <a class="navbar-brand" href="#page-top">
                 <img src="images/logotype.png" alt="...">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <svg class="svg-inline--fa fa-bars ms-1" aria-hidden="true" focusable="false" data-prefix="fas"
@@ -52,7 +52,8 @@
                     </path>
                 </svg>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarResponsive">
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase m-auto py-4 py-lg-0 align-items-center">
                     <li class="nav-item me-5">
                         <a class="nav-link" href="#acasa">Acasă</a>
@@ -76,7 +77,7 @@
                         </button>
                     </li>
                 </ul>
-                <ul class="navbar-nav text-uppercase py-4 py-lg-0 align-items-center">
+                <ul class="navbar-nav text-uppercase py-4 py-lg-0 align-items-center" id="menu_logo_feisa">
                     <li class="nav-item logo">
                         <img src="images/logofeisacolor.png" alt="">
                     </li>
@@ -1088,7 +1089,7 @@
                                 <div class="col-md-6 mt-3 p-1">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2776.3558981611577!2d28.1948361!3d45.9041938!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65c94fdba864b%3A0xd00b7463748151f!2sCahul%20State%20University%20%E2%80%9EBogdan%20Petriceicu%20Hasdeu%E2%80%9D!5e0!3m2!1sen!2s!4v1655304528218!5m2!1sen!2s"
-                                        width="350" height="175" style="border:0;" allowfullscreen="" loading="lazy"
+                                        width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 <div class="col-12 mt-3 mb-3">
@@ -1137,7 +1138,7 @@
                                 <div class="col-md-6 mt-3 p-1">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1348.9602422338498!2d28.1996054350147!3d45.89180284388741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65c85ce8d5ed5%3A0x3fee92e789d5394c!2sFacultatea%20de%20Economie%2C%20Inginerie%20%C8%99i%20%C8%98tiin%C8%9Be%20Aplicate!5e0!3m2!1sen!2s!4v1655306495374!5m2!1sen!2s"
-                                        width="350" height="175" style="border:0;" allowfullscreen="" loading="lazy"
+                                        width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 <div class="col-12 mt-3 mb-3">
@@ -1229,9 +1230,9 @@
         AOS.init();
     </script>
     <script>
-        $(window).scroll(function () {
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-        });
+        // $(window).scroll(function () {
+        //     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        // });
     </script>
 </body>
 
