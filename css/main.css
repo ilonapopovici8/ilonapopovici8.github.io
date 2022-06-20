@@ -111,6 +111,10 @@ body{
     width: 100%;
     text-align: center;
 }
+.owl-theme > img{
+    height: 250px;
+    object-fit: cover;
+}
 .news-image > img{
     height: 100%;
     width: 100%;
@@ -153,7 +157,36 @@ footer{
     #menu_logo_feisa{
         display: none;
     }
+    .text-banner{
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .text-banner > b{
+        width: 50%;
+        display: block;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    #menu_logo_feisa{
+        display: none;
+    }
     .text-block-header{
-        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+    }
+    .text-banner{
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .text-banner > b{
+        width: 70%;
+        display: block;
     }
   }
