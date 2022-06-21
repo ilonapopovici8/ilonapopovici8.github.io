@@ -5,6 +5,9 @@
 body{
     font-family: "Montserrat";
 }
+.top{
+    height: 101px;
+}
 .nav-link{
     color: white;
 }
@@ -45,7 +48,7 @@ body{
     font-size: 67px;
     line-height: 1.2; */
     text-align: center;
-    font-size: 67px;
+    /* font-size: 67px; */
 }
 .banner_image{
     background-repeat: no-repeat;
@@ -71,6 +74,7 @@ body{
     font-size: 0;
     display: inline-block;
     border-radius: 0.375rem;
+    margin-bottom: 12px;
 }
 .intro > h1{
     text-align: center;
@@ -153,7 +157,16 @@ footer{
     height: 100px;
     text-align: center;
 }
+.text-banner > b{
+    font-size: 67px;
+}
+.oportunitati_carousel > .item > img{
+    width: 100%;
+}
 @media screen and (max-width: 960px) {
+    .banner_image{
+        height: 600px;
+    }
     #menu_logo_feisa{
         display: none;
     }
@@ -168,25 +181,58 @@ footer{
         display: block;
     }
   }
-  @media screen and (max-width: 540px) {
+
+  @media screen and (max-width: 960px) {
     #menu_logo_feisa{
         display: none;
     }
-    .text-block-header{
+    .text-banner > b{
+        font-size: 30px!important;
+    }
+    /* .text-block-header{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* position: absolute; */
-    }
-    .text-banner{
+        position: absolute; 
+    }*/
+    /* .text-banner{
         font-size: 30px;
         text-align: center;
         display: flex;
         justify-content: center;
-        /* align-items: center; */
-    }
-    .text-banner > b{
+        align-items: center; 
+    }*/
+    /* .text-banner > b{
         width: 70%;
         display: block;
-    }
+    }  */
   }
+  @media screen and (max-width: 1230px) {
+    .card-text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .card-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .text-banner > b{
+        font-size: 20px!important;
+    }
+}
+  @media screen and (max-width: 760px) {
+    .card-text{
+        font-size: 20px;
+    }
+    .banner_image{
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+.banner_image{
+    height: 100vh;
+}
+}
